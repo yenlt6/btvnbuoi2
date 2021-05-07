@@ -1,9 +1,10 @@
 console.log("RUN SCRIPT");
-document.getElementsByClassName("title-section").stype.fontWeight="900"
+document.getElementsByClassName("title-section")[0].stype.fontWeight="bold"
+document.getElementsByClassName("title-section").style.fontWeight="bold";
 document.getElementsByClassName("title-section").stype.fontSize="32px"
 document.getElementById("OMG-footer").style.backgroundColor="#0984e3"
-document.getElementsByClassName("footer-textarea").innerText="© 2021 One Mount Group, JSC."
-document.getElementsByTagName("img").src="onhousing.png"
+document.getElementsByClassName("footer-textarea")[2].innerText="© 2021 One Mount Group, JSC."
+document.getElementsByTagName("img").src="img/onhousing.png"
 // Đổi style của tiêu đề Our companies thành chữ in đậm và kích thước 32px
 // Gợi ý: Sử dụng .style.fontWeight và .style.fontSize
 
